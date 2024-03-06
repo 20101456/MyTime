@@ -27,3 +27,37 @@ Features
 
 9.	College Resources: Provides a space for sharing course-related resources and materials.
 We looked at resources already available at the college such as Moodle and the SETU website and found them unintuitive and not very accessible. We want to make it is easier to access these features for general use by the students. Our hope is that if students can easily access resources like the Maths Help Centre for example, they will get the help needed to excel in their studies.
+
+Personas
+What is a Persona?
+
+A persona is a fictional character created to represent a user type that might use a site, brand, or product in a similar way. Personas are used to help guide decisions about a product, such as features, interactions, and visual design.
+Personas are extremely useful in giving a human face to an otherwise abstract user base. They typically include demographic information, behaviours, needs, and pain points.
+
+Persona 1
+Bella
+Role: Undergraduate Student
+Age: 20
+Course: Computer Science
+Needs: Wants to manage her time effectively between classes, assignments, part-time job, and social life.
+Pain Points: Often forgets assignment due dates and struggles to balance academic and personal life.
+How MyTime Helps: MyTime helps Bella stay on top of her academic responsibilities. The class schedule management feature allows her to plan her part-time job and social activities around her classes.
+
+Persona 2
+
+Oliver
+Role: Lecturer
+Age: 35
+Course: Biomolecular with Pharmaceutical Science
+Needs: Wants to keep track of his teaching schedule and office hours.
+Pain Points: Has difficulty managing office hours and ensuring students are aware of them.
+How MyTime Helps: MyTime allows Oliver to efficiently manage his teaching responsibilities and communicate his availability to students.
+
+Persona 3
+Gina
+Role: Postgraduate Student
+Age: 24
+Course: Business
+Needs: Would like to coordinate study sessions with her project group members.
+Pain Points: Struggles to find free classrooms for her and her project group to work in.
+How MyTime Helps: MyTime will enable Gina to plan and coordinate study sessions effectively with her group.
