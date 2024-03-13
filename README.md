@@ -61,3 +61,40 @@ Course: Business
 Needs: Would like to coordinate study sessions with her project group members.
 Pain Points: Struggles to find free classrooms for her and her project group to work in.
 How MyTime Helps: MyTime will enable Gina to plan and coordinate study sessions effectively with her group.
+
+Scenarios
+What is a Scenario?
+A user scenario describes the processes a user goes through to complete a task using a product, system, or service.
+User scenarios are typically used in product development and user-centred design to help understand and cater to the user’s needs. They provide insights into the user’s motivations, expectations, and goals, and can help guide the design and development process.
+
+Scenario 1
+Class Schedule Setup
+User Persona: Bella
+Goal: Bella wants to input her class schedule into the app at the start of the semester.
+Steps to Achieve the Goal:
+	Bella opens the MyTime app.
+	She navigates to the Class Schedule Management feature.
+	Bella inputs the details of her classes, including the course name, time, and location.
+	The MyTime app saves Bella’s class schedule and displays it in a user-friendly format.
+
+Scenario 2
+Assignment Tracking
+User Persona: Oliver
+Goal: Oliver wants to set a reminder for grading assignments.
+Steps to Achieve the Goal:
+	Oliver opens the MyTime app.
+	He navigates to the Assignment Tracker feature.
+	Oliver inputs the details of the assignment grading deadline.
+	He sets a reminder for the grading deadline.
+	The MyTime app will send Oliver a notification about the upcoming grading deadline.
+
+Scenario 3
+Study Session Planning
+User Persona: Gina
+Goal: Gina wants to schedule a group study session for her project group.
+Steps to Achieve the Goal:
+	Gina opens the MyTime app.
+	She navigates to the Study Session Planner feature.
+	Gina inputs the details of the study session, including the date, time, participants and the location/room.
+	She shares the study session details with her project group.
+	The MyTime app sends Gina and her project group notifications about the upcoming study session.
