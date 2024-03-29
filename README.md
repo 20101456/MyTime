@@ -7,7 +7,7 @@ MyTime is a timetabling and scheduling application that helps students and lectu
 
 Different from The SETU Website and Moodle, our product makes scheduling more accessible and personalised to everyone’s needs.
 
-Features
+Revised Feature List (Unchanged)
 
 1.	Class Schedule Management: Allows students and lecturers to input and view their class schedules in a user-friendly format.
 
@@ -98,3 +98,19 @@ Steps to Achieve the Goal:
 	Gina inputs the details of the study session, including the date, time, participants and the location/room.
 	She shares the study session details with her project group.
 	The MyTime app sends Gina and her project group notifications about the upcoming study session.
+
+User Stories
+What is a User Story?
+User Story 1
+As a student, I want to input my class schedule into MyTime so that I can easily access my timetable and room locations.
+User Story 2
+As a lecturer, I want to be able to view and manage my teaching schedule on MyTime to organize my academic responsibilities efficiently.
+User Story 3
+As a student, I want MyTime to track my assignments and remind me of due dates so that I never miss a deadline.
+User Story 4
+As a student, I want to plan my study sessions using MyTime to ensure I allocate enough time for each subject.
+User Story 5
+As a user, I want MyTime to sync with the academic calendar so that my schedule automatically adjusts for holidays and exam periods.
+User Story 6
+As a new user, I want to create a personalized profile on MyTime that reflects my role, courses, and preferences to have a tailored experience.
+
