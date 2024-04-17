@@ -114,3 +114,124 @@ As a user, I want MyTime to sync with the academic calendar so that my schedule 
 User Story 6
 As a new user, I want to create a personalized profile on MyTime that reflects my role, courses, and preferences to have a tailored experience.
 
+
+Junit Testing:
+
+Calendar Class:
+package mo.chuid.ama.mytime;
+
+public class Calendar {
+    private int day;
+    private int month;
+    private int year;
+
+    public Calendar(int day, int month, int year) {
+        this.day = day;
+        this.month = month;
+        this.year = year;
+    }
+
+    public int getDay() {
+        return day;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public int getYear() {
+        return year;
+    }
+}
+
+package mo.chuid.ama.mytime;
+
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class CalendarTest {
+    private Calendar calendar;
+
+    @Before
+    public void setUp() {
+        calendar = new Calendar(1, 1, 2000);
+    }
+
+    @Test
+    public void testConstructor() {
+        assertEquals(1, calendar.getDay());
+        assertEquals(1, calendar.getMonth());
+        assertEquals(2000, calendar.getYear());
+    }
+}
+
+
+
+Module Class:
+package com.example.softenginpra;
+
+public class Module {
+    private String code;
+    private String name;
+
+    public Module(String code, String name) {
+        this.code = code;
+        this.name = name;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+package com.example.softenginpra;
+
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class ModuleTest {
+    private Module module;
+    
+    @Before
+    public void setUp() {
+        module = new Module("CS101", "Introduction to Computer Science");
+    }
+    
+    @Test
+    public void testGetCode() {
+        assertEquals("CS101", module.getCode());
+    }
+    
+    @Test
+    public void testGetName() {
+        assertEquals("Introduction to Computer Science", module.getName());
+    }
+    
+    @Test
+    public void testSetCode() {
+        module.setCode("CS102");
+        assertEquals("CS102", module.getCode());
+    }
+    
+    @Test
+    public void testSetName() {
+        module.setName("Data Structures");
+        assertEquals("Data Structures", module.getName());
+    }
+}
+
+
