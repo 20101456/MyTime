@@ -235,3 +235,125 @@ public class ModuleTest {
 }
 
 
+Use Case
+Use Case Diagram
+ 
+UC1: View Schedule
+Primary Actor: Student/Lecturer
+Preconditions:
+•	The user is logged into the MyTime app.
+•	The user has a schedule set up in the app.
+Main Success Scenario:
+10.	User selects the “View Schedule” option.
+11.	System retrieves the user’s schedule from the database.
+12.	System displays the user’s schedule in a user-friendly format.
+Failure Scenarios:
+No schedule set up:
+•	As above but with the following modifications:
+•	At step 2, system finds no schedule for the user.
+•	At step 3, system informs the user that no schedule is set up.
+
+UC2: Edit Schedule
+Primary Actor: Student/Lecturer
+Preconditions:
+•	The user is logged into the MyTime app.
+•	The user has already set up their schedule and is returning to edit it.
+Main Success Scenario:
+1.	User selects the “Edit Schedule” option.
+2.	System displays the current schedule with options to add or remove classes.
+3.	User selects to add a new class and fills out the details (course name, time, location).
+4.	User presses submit.
+5.	System updates the schedule with the new class.
+6.	System redirects user to a page confirming successful schedule update.
+Alternative Success Scenarios:
+User removes a class:
+•	At step 3, user selects to remove a class and chooses the class to be removed.
+•	System removes the selected class from the schedule.
+Failure Scenarios:
+Class time is not valid:
+•	As above but with the following modifications:
+•	At step 3, user enters a class time that conflicts with an existing class.
+•	At step 4, system alerts the user that the class time is invalid and takes the user back to step 3 to re-enter class details.
+Failure to update schedule:
+•	As above but with the following modifications:
+•	At step 5, system fails to update the schedule.
+•	Add step 5a: System displays reason for failed update, user is then taken back to step 3 to re-enter class details or try again.
+
+UC3: Set Reminder
+Primary Actor: Student/Lecturer
+Preconditions:
+•	The user is logged into the MyTime app.
+•	The user has a schedule set up in the app.
+Main Success Scenario:
+1.	User selects the “Set Reminder” option.
+2.	System displays the current schedule with options to set reminders for each class or task.
+3.	User selects a class or task and sets a reminder.
+4.	User presses submit.
+5.	System updates the schedule with the new reminder.
+6.	System confirms successful reminder setup to the user.
+Failure Scenarios:
+Invalid reminder time:
+•	As above but with the following modifications:
+•	At step 3, user sets a reminder time that has already passed.
+•	At step 4, system alerts the user that the reminder time is invalid and takes the user back to step 3 to re-enter reminder details.
+Failure to set reminder:
+•	As above but with the following modifications:
+•	At step 5, system fails to set the reminder.
+•	Add step 5a: System displays reason for failed reminder setup, user is then taken back to step 3 to re-enter reminder details or try again.
+
+UC4: View Assignment Deadlines
+Primary Actor: Student
+Preconditions:
+•	The user is logged into the MyTime app.
+•	The user has assignments set up in the app.
+Main Success Scenario:
+1.	Student selects the “View Assignment Deadlines” option.
+2.	System retrieves the student’s assignments from the database.
+3.	System displays the assignments with their deadlines.
+Failure Scenarios:
+No assignments set up:
+•	As above but with the following modifications:
+•	At step 2, system finds no assignments for the student.
+•	At step 3, system informs the student that no assignments are set up.
+
+UC5: Set Office Hours
+Primary Actor: Lecturer
+Preconditions:
+•	The user is logged into the MyTime app.
+Main Success Scenario:
+1.	Lecturer selects the “Set Office Hours” option.
+2.	System displays a form to set office hours.
+3.	Lecturer fills out the form with the office hours details.
+4.	Lecturer presses submit.
+5.	System updates the lecturer’s profile with the new office hours.
+6.	System confirms successful office hours setup to the lecturer.
+Failure Scenarios:
+Invalid office hours:
+•	As above but with the following modifications:
+•	At step 3, lecturer sets office hours that conflict with their class schedule.
+•	At step 4, system alerts the lecturer that the office hours are invalid and takes the lecturer back to step 3 to re-enter office hours details.
+Failure to set office hours:
+•	As above but with the following modifications:
+•	At step 5, system fails to set the office hours.
+•	Add step 5a: System displays reason for failed office hours setup, lecturer is then taken back to step 3 to re-enter office hours details or try again.
+
+Activity
+Activity Diagram
+ 
+Class
+Class Diagram
+ 
+Prototype
+What is a Prototype?
+A prototype is an early model or release of a product built to test a concept or process. It serves as a tangible representation of a design concept, enabling designers to bring their ideas to life and test them in a practical manner during the research and design phase. 
+By creating a prototype, designers can explore the functionality, usability, and overall user experience of their design before investing significant resources into full-scale development. 
+This iterative process of testing and refining the prototype allows designers to identify and address any flaws or areas of improvement, leading to a more refined and successful final design
+
+Tool used to create Prototype (say if you found it easy to use or not briefly!!!)
+I used a prototyping tool called JustinMind. It is a free desktop app used for high-fidelity prototyping.
+My experience with JustinMind was nice, it has a nice UI and was easy to use. It offers an extensive selection of icons and libraries, which significantly simplified the design process. 
+Additionally, it provides the flexibility to import external libraries for an even broader range of icons, enhancing the customization possibilities. Overall, JustinMind proved to be an effective tool for my prototyping needs.
+URL or Screen Shots (not all some)
+ 
+ 
+ 
